@@ -6,3 +6,4 @@ class Student (models.Model):
        last_name=models.CharField(max_length=20)
        age=models.PositiveSmallIntegerField()
        date_of_birth=models.DateField()
+       
